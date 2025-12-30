@@ -1,3 +1,8 @@
 Flask==2.3.2
 openai==1.0.0    # only if using OpenAI API for story generation
 gunicorn==20.1.0  # for production server
+
+gunicorn
+python-dotenv
+groq
+
