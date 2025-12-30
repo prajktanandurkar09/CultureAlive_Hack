@@ -12,7 +12,7 @@ print("API KEY FROM ENV =", os.getenv("GROQ_API_KEY"))
 app = Flask(__name__)
 
 # Initialize Groq client
-client = Groq(api_key="GROQ_API_KEY")
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 
 @app.route("/")
